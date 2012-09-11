@@ -1,15 +1,13 @@
-## Generated CouchApp
-
-This is meant to be an example CouchApp and to ship with most of the CouchApp goodies.
+## Firefox on Android - Website Testing Dashboard
 
 Clone with git:
 
-    git clone git://github.com/couchapp/example.git
-    cd example
+    git clone git://github.com/AaronMT/firefox-android-website-testing-stats.git
+    cd firefox-android-website-testing-stats
 
 Install with 
     
-    couchapp push . http://localhost:5984/example
+    couchapp push . http://localhost:5984/firefox-android-website-testing-stats
 
 or (if you have security turned on)
 
@@ -17,16 +15,8 @@ or (if you have security turned on)
   
 You can also create this app by running
 
-    couchapp generate example && cd example
-    couchapp push . http://localhost:5984/example
-
-Deprecated: *couchapp generate proto && cd proto*
-
-
-## Todo
-
-* factor CouchApp Commonjs to jquery.couch.require.js
-* use $.couch.app in app.js
+    couchapp generate firefox-android-website-testing-stats && cd firefox-android-website-testing-stats
+    couchapp push . http://localhost:5984/firefox-android-website-testing-stats
 
 ## License
 
